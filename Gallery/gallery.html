@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header>
+  <div class="header">
+    <a href="#" class="logo">Logo</a>
+    <input type="checkbox" id="check">
+    <label for="check" class="icons">
+      <i class="fa-solid fa-bars" id="menu-icon"></i>
+      <i class="fa-solid fa-x" id="close-icon"></i>
+    </label>
+    <nav class="navbar">
+   <a href="#" style="--i:0;">Home</a>
+   <a href="#" style="--i:1;">About</a> 
+   <a href="#" style="--i:2;">Gallery</a>
+   <a href="#" style="--i:3;">Services</a>
+   <a href="#" style="--i:4;">Contact Us</a>
+    </nav>
+  </header>
+  </div>
+  <div class="heading">
+    <h1 >Gallery </h1><br>
+    <p id="magnify-text" >Step into our visual journey as we showcase moments captured throughout our endeavors. Explore our gallery to experience our achievements</p>
+</div>
+<div class="fullImage" id="fullImgBox">
+    <img src="images/officeView.png" alt="" id="fullImage">
+    <span onclick="closeFullImg()">X</span>
+</div>
+  <div class="main-section" >
+<!-- <img src="images/officeView.png" alt="" onclick="openFullImg(this.src)"> -->
+<div class="gallery-item" >
+    <img src="images/officeView.png" alt="" onclick="openFullImg(this.src)">
+    <span class="event-name">Office View</span>
+</div>
+<div class="gallery-item">
+  <img src="images/officeView2.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Office View</span>
+</div>
+<div class="gallery-item">
+  <img src="images/webdevSession.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Web Development Session</span>
+</div>
+<div class="gallery-item">
+  <img src="images/webdev2.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Web Development Session</span>
+</div>
+<div class="gallery-item">
+  <img src="images/republicday.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Republic Day Celebration</span>
+</div>
+<div class="gallery-item">
+  <img src="images/ShivajiJayanti.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Shivaji Jayanti Celebration</span>
+</div>
+<div class="gallery-item">
+  <img src="images/dataAnalyticsSession.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Data Analytics Session</span>
+</div>
+<div class="gallery-item">
+  <img src="images/softSkill.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Soft Skill Training</span>
+</div>
+<div class="gallery-item" >
+  <img src="images/csSession.png" alt=""onclick="openFullImg(this.src)">
+  <span class="event-name">Cyber Security Session</span>
+</div>
+</div>
+<div class="footer" data-aos="slide-up">
+  <div class="com-info">
+    <img src="images/logo.png" alt="logo" height="100px" width="300px">
+    <pre>
+      Plot No.26, Khandwekar Bunglow
+       2nd Floor, Near Lendra Park
+        Ramdaspeth,Nagpur-440010
+    </pre>
+  </div>
+  <div class="usefulLinks" >
+    <h3>Useful Links  </h3><br>
+    <a data-aos="zoom-in" href="#">Home</a>
+    <a data-aos="zoom-in" href="#">About</a>
+    <a data-aos="zoom-in" href="#">Gallery</a>
+    <a  data-aos="zoom-in" href="#">Training Program</a>
+    <a data-aos="zoom-in" href="#">Contact Us</a>
+  </div>
+  <div class="ourServices">
+    <h3>Our Services </h3><br>
+    <a data-aos="zoom-in" href="#">Real Time Project Development</a>
+    <a data-aos="zoom-in" href="#">Software Development</a>
+    <a data-aos="zoom-in" href="#">Web & app Development</a>
+    <a data-aos="zoom-in" href="#">Digital Marketing</a>
+    <a data-aos="zoom-in" href="#">ILETS/GRE/TOFEL Training</a>
+    <a data-aos="zoom-in" href="#">Campus Hiring Program</a>
+    <a data-aos="zoom-in"  href="#">Jobs & Career Consultant</a>
+  </div>
+  <div class="map">
+    <h3>Reach to us</h3><br>
+    <div class="mapbox">
+      <iframe data-aos="flip-up" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.4021432444874!2d79.06709107507498!3d21.136388684073523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c1000c0583e5%3A0x2a9d4b509fe5934e!2sSS%20Infotech%20Nagpur!5e0!3m2!1sen!2sin!4v1739441368885!5m2!1sen!2sin" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> 
+    
+    <div class="socio-handle">
+      <div class="soIcon" >
+        <a href="#"><i class="fa-brands fa-linkedin-in fa-beat"></i></a>
+      </div>
+      <div class="soIcon">
+        <a href="#"><i class="fa-brands fa-instagram fa-beat"></i></a>
+      </div>
+      <div class="soIcon">
+        <a href="#"><i class="fa-brands fa-x-twitter fa-beat"></i>
+        </a>
+      </div>
+      <div class="soIcon">
+        <a href="#"><i class="fa-brands fa-facebook-f fa-beat"></i>
+        </a>
+      </div>
+   </div>
+ </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    var fullImgBox = document.getElementById("fullImgBox");
+    var fullImage = document.getElementById("fullImage");
+    function openFullImg(pic){
+        fullImgBox.style.display="flex";
+        fullImage.src=pic;
+    }
+    function closeFullImg(){
+        fullImgBox.style.display="none";
+    }
+    AOS.init({
+  duration: 2200,
+})
+document.addEventListener("DOMContentLoaded", function() {
+            let paragraph = document.getElementById("magnify-text");
+            let words = paragraph.innerText.split(" "); // Split text into words
+            
+            // Wrap each word in a <span>
+            paragraph.innerHTML = words.map(word => `<span>${word}</span>`).join(" ");
+        });
+</script>
+</body>
+</html>
